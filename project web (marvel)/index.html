@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Orbitron:wght@500;700&family=Roboto:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cad330c446.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Start Top Section -->
+<section class="top bg-beam">
+    <header>
+        <div class="logo mega-float">
+        <img src="images/Marvel Studios.png" alt="Marvel Studios Logo">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#" class="active glow-blast">Home</a></li>
+                <li><a href="#" class="glow-blast">About</a></li>
+                <li><a href="#" class="glow-blast">Project</a></li>
+                <li><a href="#" class="glow-blast">Blogs</a></li>
+                <li><a href="#" class="glow-blast">Contact</a></li>
+                <li><a href="#" class="glow-blast">Gallery</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <h2 class="glow-blast scramble-text" data-text="The Heroic Universe Awaits"></h2>
+        <p class="text-appear scramble-text" data-text="Join the world of legends. Where every choice defines a destiny."></p>
+        <a href="#" class="shine-effect">Assemble Now</a>
+        <a href="#" class="shine-effect">Explore More</a>
+    </div>
+</section>
+
+<!-- Start Marvel Register Section -->
+<section class="register_form_sec">
+    <div class="container">
+
+        <div class="register_content">
+            <h4 class="glow-blast">Your Journey Starts Now</h4>
+            <h2 class="glow-blast">Become Part of the Marvel Universe</h2>
+            <p class="text-appear">
+    Every legend begins with a single choice the moment you decide to rise above 
+    the ordinary and step into something greater. The Marvel Universe is built on 
+    courage, destiny, and the unbreakable will of those who refuse to back down.  
+    Here, heroes aren’t born… they’re forged.
+            </p>
+            <p class="text-appear">
+    You are a hero in your own.
+</p>
+
+<audio id="bgMusic" loop>
+    <source src="images/sound01.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener("load", () => {
+    document.body.addEventListener("click", () => {
+        const music = document.getElementById("bgMusic");
+        music.volume = 0.5;
+        music.play();
+    }, { once: true });
+});
+</script>
+
+
+        </div>
+        
+        <div class="assamble_form mega-float">
+           <form>
+
+    <div class="input_box">
+        <i class="fa-solid fa-mask fa-lg"></i>
+        <input type="text" name="hero_name" placeholder="Your Hero Name">
+    </div>
+
+    <div class="input_box">
+        <i class="fa-solid fa-user fa-lg"></i>
+        <input type="text" name="real_name" placeholder="Your Real Name">
+    </div>
+
+    <div class="input_box">
+        <i class="fa-solid fa-envelope fa-lg"></i>
+        <input type="email" name="email" placeholder="Your Email">
+    </div>
+
+    <div class="input_box">
+        <i class="fa-brands fa-superpowers fa-lg"></i>
+        <input type="text" name="power" placeholder="Main Superpower">
+    </div>
+
+    <div class="input_box">
+        <i class="fa-solid fa-calendar-days fa-lg"></i>
+        <input type="date" name="join_date">
+    </div>
+
+    <div class="input_box">
+        <i class="fa-solid fa-clock fa-lg"></i>
+        <input type="time" name="join_time">
+    </div>
+
+    <div class="input_box">
+        <i class="fa-solid fa-house-user fa-lg"></i>
+        <select name="team">
+            <option value="" disabled selected>Select Your Team</option>
+            <option value="">Avengers</option>
+            <option value="">X-Men</option>
+            <option value="">Guardians of the Galaxy</option>
+            <option value="">S.H.I.E.L.D</option>
+            <option value="">The Defenders</option>
+            <option value="">Fantastic Four</option>
+        </select>
+    </div>
+
+    <input type="submit" value="Assamble Now!" class="shine-effect">
+          </form>
+
+        </div>
+    </div>  
+</section>
+
+<!-- Start About Us Section -->
+<section class="about bg-beam">
+    <div class="container_about">
+
+        <div class="about_image mega-float">
+            <img src="images/slider17.jpeg">
+        </div>
+
+        <div class="about_contant">
+            <h4 class="glow-blast">About Us</h4>
+            <h2 class="glow-blast type-text" data-text="Legends Assembled Since 2018"></h2>
+<div class="type-line"></div>
+
+            <p class="text-appear type-text-paragraph" data-text="Every hero’s journey begins with a single spark and ours ignited in 2018. What started as a small vision quickly evolved into a place where ordinary people discover the power they never knew they had. We have spent every year mentoring new talents guiding brave minds and inspiring dreamers who are ready to step into something bigger than themselves. From the first mission we ever launched to the countless challenges we have faced since then our story has been shaped by courage determination and the belief that anyone can rise. We have watched people transform their doubts into strength their fears into confidence and their potential into greatness. Our universe keeps growing with every choice every moment of bravery and every victory earned. Hope shines brighter here teamwork stays unbreakable and every individual who joins us becomes part of something legendary. And now the next legend waiting to rise could be you. Your story your power your journey."></p>
+
+
+            <div class="about_btn">
+                <a href="#" class="shine-effect">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Start Program Section -->
+<section class="category-section-wrapper">
+
+    <div class="container-category">
+        <div class="category-item mega-float">
+            <img src="images/icon03.png" alt="Heroes">
+            <h3 class="glow-blast">Heroes</h3>
+            <p class="text-appear">Discover legendary Marvel heroes and their epic battles.</p>
+            <a href="#" class="shine-effect">Explore More</a>
+        </div>
+        <div class="category-item mega-float">
+            <img src="images/icon04.png" alt="Villains">
+            <h3 class="glow-blast">Villains</h3>
+            <p class="text-appear">Explore notorious Marvel villains and their dark schemes.</p>
+            <a href="#" class="shine-effect">Explore More</a>
+        </div>
+        <div class="category-item mega-float">
+            <img src="images/icon01.png" alt="Movies">
+            <h3 class="glow-blast">Movies</h3>
+            <p class="text-appear">Follow Marvel films, uncovering key events and arcs.</p>
+            <a href="#" class="shine-effect">Explore More</a>
+        </div>
+        <div class="category-item mega-float">
+            <img src="images/icon02.png" alt="Series">
+            <h3 class="glow-blast">Series</h3>
+            <p class="text-appear">Dive into Marvel series and mind blowing TV shows.</p>
+            <a href="#" class="shine-effect">Explore More</a>
+        </div>
+    </div>
+
+    <div class="quiz-box mega-float">
+        <h3 class="glow-blast">Marvel Quiz</h3>
+        <p class="text-appear">Who is the creator of M.C.U.:</p>
+        <div class="options">
+            <button class="shine-effect">Jobert Drowny Jr.</button>
+            <button class="shine-effect">Hank Pim.</button>
+            <button class="shine-effect">Stan Lee.</button>
+            <button class="shine-effect">Jackie Chan.</button>
+            <button class="shine-effect">Rowan Atkinson.</button>
+        </div>
+    </div>
+
+</section>
+
+<!-- Counter Section -->
+<section class="counter_section">
+    <div class="counter_container">
+
+        <div class="counter_box flicker-box">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h2 class="counter">50000</h2>
+            <p>Avengers Joined</p>    
+        </div>
+
+        <div class="counter_box flicker-box">
+            <i class="fa-solid fa-bolt"></i>
+            <h2 class="counter">12000</h2>
+            <p>Battles Fought</p>    
+        </div>
+
+        <div class="counter_box flicker-box">
+            <i class="fa-solid fa-helmet-safety"></i>
+            <h2 class="counter">8500</h2>
+            <p>Heroes Trained</p>    
+        </div>
+
+        <div class="counter_box flicker-box">
+            <i class="fa-solid fa-skull-crossbones"></i>
+            <h2 class="counter">7600</h2>
+            <p>Villains Defeated</p>    
+        </div>
+
+        <div class="counter_box flicker-box">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h2 class="counter">98</h2>
+            <p>Earths Saved</p>    
+        </div>
+
+        <div class="counter_box flicker-box">
+            <i class="fa-solid fa-star"></i>
+            <h2 class="counter">100000</h2>
+            <p>Fans Worldwide</p>    
+        </div>
+
+    </div>
+
+    <script>
+    let counters = document.querySelectorAll('.counter');
+
+    counters.forEach(counter => {
+        let target = +counter.innerText;
+        let count = 0;
+        let speed = target / 100;
+
+        let update = () => {
+            if (count < target) {
+                count += speed;
+                counter.innerText = Math.ceil(count);
+                setTimeout(update, 20);
+            } else {
+                counter.innerText = target;
+            }
+        };
+
+        update();
+    });
+    </script>
+</section>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    let texts = document.querySelectorAll(".type-text");
+    texts.forEach((el, index) => {
+        let text = el.dataset.text;
+        let i = 0;
+        let line = el.nextElementSibling;
+        let lineWidth = 0;
+
+        function type() {
+            if (i < text.length) {
+                el.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(type, 70);
+            } else {
+                growLine();
+            }
+        }
+
+        function growLine() {
+            if (!line) return;
+            if (lineWidth < 260) {
+                lineWidth += 5;
+                line.style.width = lineWidth + "px";
+                setTimeout(growLine, 15);
+            }
+        }
+
+        setTimeout(type, index * 600);
+    });
+
+    // Paragraph typing
+    let paragraphs = document.querySelectorAll(".type-text-paragraph");
+    paragraphs.forEach((el, index) => {
+        let text = el.dataset.text;
+        let i = 0;
+
+        function typePara() {
+            if (i < text.length) {
+                el.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typePara, 5);
+            }
+        }
+
+        setTimeout(typePara, index * 200 + 200); 
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+    const elements = document.querySelectorAll(".scramble-text");
+
+    elements.forEach(el => {
+        const finalText = el.dataset.text;
+        let iterations = 0;
+        const maxIterations = finalText.length * 4;
+
+        function scramble() {
+            let display = "";
+            for (let i = 0; i < finalText.length; i++) {
+                if (i < iterations / 4) {
+                    display += finalText[i];
+                } else {
+                    display += letters.charAt(Math.floor(Math.random() * letters.length));
+                }
+            }
+            el.innerText = display;
+            if (iterations < maxIterations) {
+                iterations++;
+                setTimeout(scramble, 10);
+            } else {
+                el.innerText = finalText;
+            }
+        }
+
+        scramble();
+    });
+});
+</script>
+
+</body>
+</html>
